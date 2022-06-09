@@ -1,13 +1,13 @@
-html{
+html {
     height: 100%;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     margin: 0;
     padding: 0;
-
+    
     height: 100%;
 }
 
@@ -15,7 +15,6 @@ body {
     background-image: url('images/background-01-port.png');
     background-position: center;
     background-attachment: fixed;
-
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,43 +23,44 @@ body {
     background-image: url('images/background-02-port.png');
     background-position: center;
     background-attachment: fixed;
-
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
-    /*========== HEADER ===========*/
+/*========== HEADER ==========*/
+
 .header {
-    background-color: darksalmon; 
+    background-color: #2196f3;
     width: 100%;
     height: 50px;
     top: 0;
 
     position: fixed;
     overflow: hidden;
+
     text-align: center;
 }
 
 .header i {
     float: left;
-    padding: 17px 0px 0px 17px;
-    color: #ffffff;
+    padding: 17pxx 0px 0px 17px;
+    color: #f10a0a;
 }
 
 .header img {
     width: 150px;
     padding-top: 14px;
     padding-right: 25px;
+
 }
-
-
-/*========== HOME PAGE ===========*/
+/*========== HOME-PAGE ==========*/
 
 #home-logo-img {
     width: 50px;
     display: block;
     margin: auto;
     padding: 25px 10px 10px 10px;
+    
 }
 
 #home-logo-text {
@@ -70,31 +70,31 @@ body {
     padding: 25px;
 }
 
-/*===== HOME PAGE MENU =====*/ 
+/*====== HOME-PAGE-MENU =======*/
 
 .home-menu-item {
     text-decoration: none;
     text-transform: uppercase;
-
-    color:#ffffff;
+    color: #ffffff;
     font-size: 25px;
+
     font-weight: bold;
     text-align: center;
     border: 5px solid #ffffff;
-
     display: block;
+
     margin: auto;
     margin-bottom: 10px;
     width: 80%;
 }
 
-/*========== MEALS PAGE ===========*/
+/*========== MEALS-PAGE ==========*/
 
 #meals {
     padding-top: 50px;
 }
 
-/*===== MEALS PAGE MENU =====*/ 
+/*====== MEALS-PAGE-MENU =======*/
 
 .meals-list a {
     text-decoration: none;
@@ -108,8 +108,8 @@ body {
 .meals-list-item h1 {
     font-weight: bold;
     font-size: 20px;
-    padding-left: 10px;
     color: #1a1a1a;
+    padding: 10px;
 }
 
 .meals-list-item i {
@@ -118,20 +118,21 @@ body {
     padding: 10px;
 }
 
-.meals-list-item p{
+.meals-list-item p {
     font-size: 15px;
     font-style: italic;
-    margin-top: -7px;
     color: #4d4d4d;
+    margin-top: -7px;
     padding-left: 10px;
 }
 
-/*========== RECIPE PAGE ===========*/
+/*========== RECIPE-PAGE ==========*/
 
 #recipe {
     padding-top: 50px;
 }
-/*===== RECIPE DETAILS =====*/ 
+
+/*====== RECIPE-DETAILLS =======*/
 
 .recipe-details img {
     width: 100%;
@@ -140,7 +141,7 @@ body {
 .recipe-details h1 {
     font-size: 25px;
     text-align: center;
-    border: 5px solid #1a1a1a;
+    border:  5px solid #1a1a1a;
     margin: 10px;
     padding: 5px;
 }
@@ -149,7 +150,6 @@ body {
     margin-left: 25px;
     margin-right: 25px;
 }
-
 .recipe-details-info p {
     font-size: 13px;
     display: inline-block;
@@ -168,18 +168,18 @@ body {
     padding-left: 28px;
 }
 
-/*========== RESPONSIVE LAYOUT ===========*/
+/*========== RESPONSIVE-LAYOUT ==========*/
 
 @media only screen and (min-width: 600px) {
-  #meals {
-      width: 80%;
-      margin: auto;
-  }
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
 
-  #recipe{
-      width: 80%;
-      margin: auto;
-  }
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -187,8 +187,8 @@ body {
         width: 60%;
         margin: auto;
     }
-  
-    #recipe{
+
+    #recipe {
         width: 60%;
         margin: auto;
     }
@@ -199,8 +199,8 @@ body {
         width: 40%;
         margin: auto;
     }
-  
-    #recipe{
+
+    #recipe {
         width: 40%;
         margin: auto;
     }
@@ -210,17 +210,11 @@ body {
     .body-home {
         background-image: url('images/background-01-land.png');
     }
-   
+
     .body-meals {
         background-image: url('images/background-02-land.png');
     }
 }
-
-
-
-
-
-
 
 
 
